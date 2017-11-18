@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB621C2F1FC02871003EF0E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB621C2C1FC02871003EF0E3 /* Assets.xcassets */; };
+		FB621C391FC028DF003EF0E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB621C381FC028DF003EF0E3 /* AppDelegate.swift */; };
+		FB621C401FC02918003EF0E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB621C3F1FC02918003EF0E3 /* ViewController.swift */; };
+		FB621C421FC0292B003EF0E3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB621C411FC0292B003EF0E3 /* Launch Screen.storyboard */; };
+		FB621C461FC038E4003EF0E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB621C451FC038E4003EF0E3 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB1266621FC027310066BF62 /* TimeTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB621C2C1FC02871003EF0E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ProjectFiles/Resources/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		FB621C2E1FC02871003EF0E3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ProjectFiles/Resources/Info.plist; sourceTree = SOURCE_ROOT; };
+		FB621C381FC028DF003EF0E3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ProjectFiles/Code/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		FB621C3F1FC02918003EF0E3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ProjectFiles/Code/UI/Controllers/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		FB621C411FC0292B003EF0E3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "ProjectFiles/Resources/Launch Screen.storyboard"; sourceTree = SOURCE_ROOT; };
+		FB621C451FC038E4003EF0E3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ProjectFiles/Resources/Main.storyboard; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB12665F1FC027310066BF62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB1266591FC027310066BF62 = {
+			isa = PBXGroup;
+			children = (
+				FB1266641FC027310066BF62 /* TimeTracking */,
+				FB1266631FC027310066BF62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB1266631FC027310066BF62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB1266621FC027310066BF62 /* TimeTracking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB1266641FC027310066BF62 /* TimeTracking */ = {
+			isa = PBXGroup;
+			children = (
+				FB621C291FC0283E003EF0E3 /* ProjectFiles */,
+			);
+			path = TimeTracking;
+			sourceTree = "<group>";
+		};
+		FB621C291FC0283E003EF0E3 /* ProjectFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FB621C2A1FC02850003EF0E3 /* Code */,
+				FB621C2B1FC02855003EF0E3 /* Resources */,
+			);
+			name = ProjectFiles;
+			sourceTree = "<group>";
+		};
+		FB621C2A1FC02850003EF0E3 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				FB621C381FC028DF003EF0E3 /* AppDelegate.swift */,
+				FB621C3B1FC028F0003EF0E3 /* Helpers */,
+				FB621C3A1FC028E7003EF0E3 /* UI */,
+			);
+			name = Code;
+			sourceTree = "<group>";
+		};
+		FB621C2B1FC02855003EF0E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB621C2C1FC02871003EF0E3 /* Assets.xcassets */,
+				FB621C2E1FC02871003EF0E3 /* Info.plist */,
+				FB621C411FC0292B003EF0E3 /* Launch Screen.storyboard */,
+				FB621C451FC038E4003EF0E3 /* Main.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FB621C3A1FC028E7003EF0E3 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FB621C3E1FC0290B003EF0E3 /* View */,
+				FB621C3D1FC02904003EF0E3 /* ViewModel */,
+				FB621C3C1FC028FA003EF0E3 /* Controllers */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		FB621C3B1FC028F0003EF0E3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		FB621C3C1FC028FA003EF0E3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB621C3F1FC02918003EF0E3 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FB621C3D1FC02904003EF0E3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		FB621C3E1FC0290B003EF0E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB1266611FC027310066BF62 /* TimeTracking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB1266741FC027310066BF62 /* Build configuration list for PBXNativeTarget "TimeTracking" */;
+			buildPhases = (
+				FB12665E1FC027310066BF62 /* Sources */,
+				FB12665F1FC027310066BF62 /* Frameworks */,
+				FB1266601FC027310066BF62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeTracking;
+			productName = TimeTracking;
+			productReference = FB1266621FC027310066BF62 /* TimeTracking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB12665A1FC027310066BF62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Vaibhav Parmar";
+				TargetAttributes = {
+					FB1266611FC027310066BF62 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = STRYF8536N;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FB12665D1FC027310066BF62 /* Build configuration list for PBXProject "TimeTracking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB1266591FC027310066BF62;
+			productRefGroup = FB1266631FC027310066BF62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB1266611FC027310066BF62 /* TimeTracking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB1266601FC027310066BF62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB621C461FC038E4003EF0E3 /* Main.storyboard in Resources */,
+				FB621C421FC0292B003EF0E3 /* Launch Screen.storyboard in Resources */,
+				FB621C2F1FC02871003EF0E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB12665E1FC027310066BF62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB621C401FC02918003EF0E3 /* ViewController.swift in Sources */,
+				FB621C391FC028DF003EF0E3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FB1266721FC027310066BF62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB1266731FC027310066BF62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB1266751FC027310066BF62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = STRYF8536N;
+				INFOPLIST_FILE = ProjectFiles/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickelfox.TimeTracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FB1266761FC027310066BF62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = STRYF8536N;
+				INFOPLIST_FILE = ProjectFiles/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickelfox.TimeTracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB12665D1FC027310066BF62 /* Build configuration list for PBXProject "TimeTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1266721FC027310066BF62 /* Debug */,
+				FB1266731FC027310066BF62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB1266741FC027310066BF62 /* Build configuration list for PBXNativeTarget "TimeTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1266751FC027310066BF62 /* Debug */,
+				FB1266761FC027310066BF62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB12665A1FC027310066BF62 /* Project object */;
+}
