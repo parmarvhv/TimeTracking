@@ -32,6 +32,20 @@ class TimeCardViewController: UIViewController {
         fillPreviousDates()
         self.collectionView.reloadData()
     }
+    @IBAction func handleNewEntry(_ sender: UIBarButtonItem) {
+//        let timeCardVC = NewTimeCardViewController(size: CGSize(width: 350, height: 500))
+//        timeCardVC.modalPresentationStyle = .popover
+//        timeCardVC.popoverPresentationController?.delegate = self
+//        self.present(timeCardVC, animated: true, completion: nil)
+//        timeCardVC.popoverPresentationController?.sourceView = self.view
+//        
+//        let sourceRect = CGRect(origin: CGPoint(x: 0, y: 100),
+//                                size: CGSize(width: 10, height: 10))
+//        timeCardVC.popoverPresentationController?.sourceRect = sourceRect
+//        timeCardVC.modalPresentationStyle = .overCurrentContext
+//        timeCardVC.modalTransitionStyle = .crossDissolve
+
+    }
 }
 
 extension TimeCardViewController: UICollectionViewDataSource, UICollectionViewDelegate {
@@ -87,6 +101,12 @@ extension TimeCardViewController {
             if date.compare(toDate) == .orderedAscending { break }
             self.dates.append(date)
         } while(true)
+    }
+}
+
+extension TimeCardViewController: UIPopoverPresentationControllerDelegate {
+    func adaptivePresentationStyle(for controller: UIPresentationController) -> UIModalPresentationStyle {
+        return .none
     }
 }
 

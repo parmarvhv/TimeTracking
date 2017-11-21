@@ -1,5 +1,5 @@
 //
-//  ProjectsViewController.swift
+//  NewClientViewController.swift
 //  TimeTracking
 //
 //  Created by Vaibhav Parmar on 21/11/17.
@@ -8,10 +8,8 @@
 
 import UIKit
 
-class ProjectsViewController: UIViewController {
+class NewClientViewController: UIViewController {
 
-    @IBOutlet var tableView:UITableView!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -22,7 +20,7 @@ class ProjectsViewController: UIViewController {
     }
     
     fileprivate func updateNavigationBarAppearance() {
-        self.navigationController?.setNavigationBarHidden(false, animated: false)
-        self.title = "Projects"
+        self.title = "New Client Entry"
     }
+
 }
