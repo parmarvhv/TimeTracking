@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB25C3151FC4038E00AC3B54 /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB25C3141FC4038E00AC3B54 /* ProjectsViewController.swift */; };
 		FB621C2F1FC02871003EF0E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB621C2C1FC02871003EF0E3 /* Assets.xcassets */; };
 		FB621C391FC028DF003EF0E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB621C381FC028DF003EF0E3 /* AppDelegate.swift */; };
-		FB621C401FC02918003EF0E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB621C3F1FC02918003EF0E3 /* ViewController.swift */; };
+		FB621C401FC02918003EF0E3 /* TimeCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB621C3F1FC02918003EF0E3 /* TimeCardViewController.swift */; };
 		FB621C421FC0292B003EF0E3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB621C411FC0292B003EF0E3 /* Launch Screen.storyboard */; };
 		FB621C461FC038E4003EF0E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB621C451FC038E4003EF0E3 /* Main.storyboard */; };
+		FB621C481FC03C9F003EF0E3 /* CalendarCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB621C471FC03C9F003EF0E3 /* CalendarCollectionCell.swift */; };
+		FB621C4A1FC04292003EF0E3 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB621C491FC04292003EF0E3 /* Date.swift */; };
+		FB797B121FC408A300EADE1E /* StyledNavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB797B111FC408A300EADE1E /* StyledNavigationItem.swift */; };
+		FBEB6D371FC40F4800F1C963 /* StyledNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEB6D361FC40F4800F1C963 /* StyledNavigationBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FB1266621FC027310066BF62 /* TimeTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB25C3141FC4038E00AC3B54 /* ProjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProjectsViewController.swift; path = ProjectFiles/Code/UI/Controllers/ProjectsViewController.swift; sourceTree = SOURCE_ROOT; };
 		FB621C2C1FC02871003EF0E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ProjectFiles/Resources/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		FB621C2E1FC02871003EF0E3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ProjectFiles/Resources/Info.plist; sourceTree = SOURCE_ROOT; };
 		FB621C381FC028DF003EF0E3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ProjectFiles/Code/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
-		FB621C3F1FC02918003EF0E3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ProjectFiles/Code/UI/Controllers/ViewController.swift; sourceTree = SOURCE_ROOT; };
+		FB621C3F1FC02918003EF0E3 /* TimeCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimeCardViewController.swift; path = ProjectFiles/Code/UI/Controllers/TimeCardViewController.swift; sourceTree = SOURCE_ROOT; };
 		FB621C411FC0292B003EF0E3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "ProjectFiles/Resources/Launch Screen.storyboard"; sourceTree = SOURCE_ROOT; };
 		FB621C451FC038E4003EF0E3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ProjectFiles/Resources/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		FB621C471FC03C9F003EF0E3 /* CalendarCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarCollectionCell.swift; path = ProjectFiles/Code/UI/View/CalendarCollectionCell.swift; sourceTree = SOURCE_ROOT; };
+		FB621C491FC04292003EF0E3 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Date.swift; path = ProjectFiles/Code/Helpers/Date.swift; sourceTree = SOURCE_ROOT; };
+		FB797B111FC408A300EADE1E /* StyledNavigationItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StyledNavigationItem.swift; path = ProjectFiles/Code/Helpers/StyledNavigationItem.swift; sourceTree = SOURCE_ROOT; };
+		FBEB6D361FC40F4800F1C963 /* StyledNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyledNavigationBar.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +112,9 @@
 		FB621C3B1FC028F0003EF0E3 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				FB621C491FC04292003EF0E3 /* Date.swift */,
+				FB797B111FC408A300EADE1E /* StyledNavigationItem.swift */,
+				FBEB6D361FC40F4800F1C963 /* StyledNavigationBar.swift */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -109,7 +122,8 @@
 		FB621C3C1FC028FA003EF0E3 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				FB621C3F1FC02918003EF0E3 /* ViewController.swift */,
+				FB621C3F1FC02918003EF0E3 /* TimeCardViewController.swift */,
+				FB25C3141FC4038E00AC3B54 /* ProjectsViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -124,6 +138,7 @@
 		FB621C3E1FC0290B003EF0E3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FB621C471FC03C9F003EF0E3 /* CalendarCollectionCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -202,8 +217,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB621C401FC02918003EF0E3 /* ViewController.swift in Sources */,
+				FB797B121FC408A300EADE1E /* StyledNavigationItem.swift in Sources */,
+				FB621C481FC03C9F003EF0E3 /* CalendarCollectionCell.swift in Sources */,
+				FB25C3151FC4038E00AC3B54 /* ProjectsViewController.swift in Sources */,
+				FB621C401FC02918003EF0E3 /* TimeCardViewController.swift in Sources */,
 				FB621C391FC028DF003EF0E3 /* AppDelegate.swift in Sources */,
+				FB621C4A1FC04292003EF0E3 /* Date.swift in Sources */,
+				FBEB6D371FC40F4800F1C963 /* StyledNavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
